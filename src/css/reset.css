@@ -1,0 +1,48 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Roboto", sans-serif;
+}
+
+body{
+    background-color: #000000;
+    height: 100vh;
+}
+
+.container{
+    max-width: 1280px;
+    margin: 0 auto;
+}
+
+.flex {
+    display: flex;
+}
+
+.btn-contato button {
+    padding: 10px 30px;
+    font-size: 15px;
+    font-weight: 600;
+    background-color: #005eff;
+    border: 0;
+    border-radius: 30px;
+    cursor: pointer;
+    transition: 0.3s;
+    color: #fff;
+}
+
+h2.titulo {
+    color: #fff;
+    font-size: 38px;
+   text-align: center;
+}
+
+h2.titulo span {
+    color: #005eff;
+}
+
+button:hover, form .btn-enviar input:hover {
+    box-shadow: 0px 0px 10px #005eff;
+    transform: scale(1.15);
+}
